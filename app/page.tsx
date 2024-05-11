@@ -142,8 +142,8 @@ const Page = () => {
 
   return (
     <div className="flex justify-center relative px-16 md:px-0 text-black flex-col gap-y-5 min-h-screen w-full items-center">
-      <div className=" hidden  w-9/12  justify-center  h-full  items-center border-l-[0.0000000000008rem]  md:flex flex-col  gap-y-4 ">
-        <div className="w-full  flex gap-x-16">
+      <div className=" hidden  2xl:w-6/12  justify-center   h-full  items-center border-l-[0.0000000000008rem]  md:flex flex-col  gap-y-4 ">
+        <div className="w-full  justify-center items-center flex gap-x-16">
           <div className="w-44 flex  textcarouContainer overflow-hidden  h-[24rem]  gap-y-8 ">
             <div className="textcarou flex flex-col gap-y-8 w-44 transition-all   ease duration-500  justify-between items-start flex-shrink-0 h-[18rem] ">
               <div className="flex justify-start  gap-x-4">
@@ -320,7 +320,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="flex w-full divide-dashed divide-x-[0.02rem] divide-gray-200">
+        <div className="flex w-full justify-center items-center divide-dashed divide-x-[0.02rem] divide-gray-200">
           <div className="flex flex-col justify-start   items-center max-w-60  w-3/12 h-40 ">
             <div className="progressligne h-[0.02rem]   w-full rounded-sm bg-gray-200 ">
               <div className="progressbarre transition-all ease-out duration-300 h-full w-0 bg-blue-500">
