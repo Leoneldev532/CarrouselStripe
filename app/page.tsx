@@ -142,7 +142,7 @@ const Page = () => {
 
   return (
     <div className="flex justify-center relative px-16 md:px-0 text-black flex-col gap-y-5 min-h-screen w-full items-center">
-      <div className=" hidden  w-full 2xl:w-6/12  justify-center items-center border-l-[0.0000000000008rem]  md:flex flex-col  gap-y-4 ">
+      <div className=" hidden  w-9/12  justify-center items-center border-l-[0.0000000000008rem]  md:flex flex-col  gap-y-4 ">
         <div className="w-full  flex gap-x-16">
           <div className="w-44 flex  textcarouContainer overflow-hidden  h-[24rem]  gap-y-8 ">
             <div className="textcarou flex flex-col gap-y-8 w-44 transition-all   ease duration-500  justify-between items-start flex-shrink-0 h-[18rem] ">
