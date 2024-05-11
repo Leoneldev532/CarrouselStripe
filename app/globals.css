@@ -48,8 +48,8 @@ body{
   font-family: var(--font-Poppins);
 }
 
-.active{
-  color:rgb(59 130 246/40)
+.grayscale {
+  filter: grayscale(100%);
 }
 
 .bloc1{
